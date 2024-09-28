@@ -1,5 +1,7 @@
 # Web Mapping Project
 
+![mapa](https://i.imgur.com/gM2p7Du.png)
+
 Este proyecto de **Web Mapping** utiliza diversas tecnologías para crear y visualizar mapas interactivos en archivos HTML, basándose en la información de volcanes, como su latitud, longitud y otros datos relevantes.
 
 ## Tecnologías utilizadas
@@ -16,8 +18,6 @@ Este proyecto de **Web Mapping** utiliza diversas tecnologías para crear y visu
 4. **Jupyter Notebook**:
    - Herramienta utilizada para ejecutar y probar el código, además de realizar análisis de datos.
    
-5. **Git y GitHub**:
-   - Control de versiones: Para gestionar el desarrollo del proyecto y almacenar los cambios en un repositorio remoto en GitHub.
 
 ## Estructura del proyecto
 
@@ -25,6 +25,11 @@ Este proyecto de **Web Mapping** utiliza diversas tecnologías para crear y visu
 - **volcanes_extendido.csv**: Archivo CSV que contiene la información de varios volcanes, como nombre, ubicación, elevación, tipo de volcán, latitud y longitud.
 - **main.py**: Script principal que utiliza `folium` y `pandas` para procesar los datos de los volcanes y generar el mapa.
 - **README.md**: Descripción del proyecto (este archivo).
+
+## Requisitos Previos
+
+- Python 3.x
+- Librerías: `folium`, `pandas`
 
 ## Instrucciones de uso
 
